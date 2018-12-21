@@ -142,7 +142,7 @@
 <style>
   .blueimp-gallery > .description {
     position: absolute;
-    top: 30px;
+    top: 300px;
     left: 15px;
     color: red;
     display: none;
