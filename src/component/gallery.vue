@@ -144,7 +144,7 @@
     position: absolute;
     top: 30px;
     left: 15px;
-    color: #fff;
+    color: red;
     display: none;
   }
   .blueimp-gallery-controls > .description {
