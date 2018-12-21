@@ -169,7 +169,7 @@ npm run build
 | onclosed         |                         |         |
 
 
-## Other my Vue JS plugins
+## Other my Vue JS plugins2222222222
 
 | Project | Status | Description |
 |---------|--------|-------------|
