@@ -17,7 +17,7 @@
       <slot name="close">X</slot>
     </a>
     <a class="download">
-      <slot name="download"></slot>
+      <slot name="download">download</slot>
     </a>
     <ol v-if="!carousel" class="indicator"></ol>
     <a v-if="carousel" class="play-pause"></a>
