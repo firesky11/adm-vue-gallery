@@ -5,7 +5,7 @@
     :class="{'blueimp-gallery-carousel': carousel}">
 
     <div class="slides"></div>
-    <h3 class="title"></h3>
+    <!-- <h3 class="title"></h3> -->
     <!-- <p class="description"></p> -->
     <a class="prev">
       <slot name="prev">‹</slot>
