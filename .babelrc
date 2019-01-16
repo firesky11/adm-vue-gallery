@@ -1,6 +1,6 @@
 {
   "presets": [
-    ["env", {
+    ["@babel/preset-env", {
       "modules": false,
       "targets": {
         "browsers": [
@@ -17,6 +17,7 @@
         ]
       }
     }]
+  
   ],
   "plugins": ["transform-object-assign"]
 }
