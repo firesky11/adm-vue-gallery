@@ -5,7 +5,7 @@
     :class="{'blueimp-gallery-carousel': carousel}">
 
     <div class="slides"></div>
-    <!-- <h3 class="title"></h3> -->
+    <h3 class="title"></h3>
     <p class="description"></p>
     <a class="prev">
       <slot name="prev">‹</slot>
@@ -15,6 +15,9 @@
     </a>
     <a v-if="!carousel" class="close">
       <slot name="close">X</slot>
+    </a>
+    <a class="download">
+      <slot name="download"></slot>
     </a>
     <ol v-if="!carousel" class="indicator"></ol>
     <a v-if="carousel" class="play-pause"></a>
@@ -142,9 +145,9 @@
 <style>
   .blueimp-gallery > .description {
     position: absolute;
-    top: 300px;
+    top: 30px;
     left: 15px;
-    color: purple;
+    color: #fff;
     display: none;
   }
   .blueimp-gallery-controls > .description {
